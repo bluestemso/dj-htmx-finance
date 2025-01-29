@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django.contrib.humanize",
 
     # external apps
     "django_extensions",
@@ -36,6 +37,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "django_filters",
     "django_htmx",
+
     # project apps
     "tracker",
 ]
